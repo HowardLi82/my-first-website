@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  font-size: 32px;
+}
+
+.imp-title {
+  font-size: 30px;
+  text-align: center;
+  color: #0070f3;
+  /* 2px: 水平偏移, 2px: 垂直偏移, 4px: 模糊半徑, rgba(0,0,0,0.3): 黑色陰影透明度30% */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18.72px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 13.28px;
+}
+
+h6 {
+  font-size: 10.72px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: underline;
+}
