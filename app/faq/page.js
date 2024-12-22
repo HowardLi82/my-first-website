@@ -19,7 +19,10 @@ export default function FAQ() {
             {faqList.map((faq) => {
               const { id, question, answer } = faq;
               return (
-                <div className="bg-gray-100 p-4 rounded-md shadow-md mb-4">
+                <div
+                  key={id}
+                  className="bg-gray-100 p-4 rounded-md shadow-md mb-4"
+                >
                   <h2 className="p-4">{question}</h2>
                   <p className="p-4 border-t border-neutral-300">{answer}</p>
                 </div>
